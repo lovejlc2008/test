@@ -1,0 +1,243 @@
+*{ margin: 0; padding: 0;}
+html,body{ width: 100%; height: 100%; min-height: 732px;}
+ i{ font-style: normal;}
+.lh1{ line-height: 1;}
+.mr6{ margin-right: 6px;}
+.ml17{ margin-left: 17px;}
+.mr16{ margin-right: 16px;}
+.mt10{ margin-top: 10px;}
+.pt10{ padding-top: 10px;}
+.fr{ float: right;}
+.fl{ float: left;}
+a{ text-decoration: none;}
+.col348{ color: #348ce3;}
+/*login*/
+body.login-body{
+	min-width: 1154px;
+	background: #000
+}
+.lg-w{
+	width: 1154px;
+	margin: 0 auto;
+	height: 100%;
+	position: relative;
+}
+
+.lg-header{
+	width: 100%;
+	min-width: 1154px;
+	height: 41px;
+	padding-top: 9px;
+	position: absolute;
+	background: #fff;
+	left: 0;
+	top: 0;
+}
+.lg-header .lg-w .logo,.lg-header .lg-w .logo img{
+	width: 139px;
+	height: 34px;
+	display: block;
+	border: none;
+}
+.lg-header .lg-w .logo{
+	margin-left: 32px;
+}
+.lg-header .lg-w .logo-qy{
+	font-size: 18px;
+	color: #666;
+}
+.lg-header .lg-w .logo-qy i{
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.lg-cont{
+	width: 100%;
+	height: 100%;
+	padding-top: 50px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing:border-box;
+	box-sizing: border-box;
+	background:url(../img/login-bg.jpg) center 50px no-repeat #3daafb;
+}
+.lg-cont .lgc-bg{
+	width: 100%;
+	height: 100%;
+	background:url(../img/login-bg2.jpg) center 600px no-repeat;
+	position: relative;
+}
+.lg-cont .lgc-bg .lbc-botbg{
+	width: 100%;
+	height: 177px;
+	background: url(../img/lb4.png) center bottom no-repeat;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+
+.lg-cont .lgc-bg .lgbox{
+	position: absolute;
+	/*right: 24px;*/
+	right: 73px;
+	top: 121px;
+	width: 331px;
+	height: auto;
+	padding: 29px 0 0 19px;
+	/*background: url(../img/lb1.png) left top no-repeat;*/
+	background-color: #fff;
+	z-index: 99;
+}
+.lg-cont .lgc-bg .lgbox .logo-ico{
+	width: 109px;
+	height: 265px;
+	position: absolute;
+	right: -49px;
+	top: -24px;
+	z-index: 101;
+	background: url(../img/lb5.png) center center no-repeat;
+}
+.lg-cont .lgc-bg .lgb-text{
+	width: 312px;
+}
+.lgbox h3.title{
+	font-size: 18px;
+	color: #333;
+	line-height: 1;
+	font-weight: normal;
+	padding-bottom: 14px;
+}
+.lgbox .jo-input{
+	width: 310px;
+	height: 42px;
+	border: 1px solid #e0e0e0;
+	margin-top: 20px;
+}
+.lgbox .jo-input.bor-red{
+	border: 1px solid #f04d52;
+}
+.lgbox .jo-input i.icon{
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	vertical-align: middle;
+	background: #dedcdf url(../img/lb2.png) center center no-repeat;
+}
+.lgbox .jo-input.pw i.icon{
+	background: #dedcdf url(../img/lb3.png) center center no-repeat;
+}
+.lgbox .jo-input input{
+	outline: none;
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance:none;
+	width: 240px;
+	font-size: 14px;
+	border: 0px;
+	line-height: 22px;
+	padding:10px 9px;
+	background: transparent;
+	vertical-align: middle;
+}
+.lgbox input:-moz-placeholder{
+	color:#999;
+	font-size: 14px;
+}
+.lgbox input::-moz-placeholder{
+	color:#999;
+	font-size: 14px;
+}
+.lgbox textarea:-ms-input-placeholder{
+	color:#999;
+	font-size: 14px;
+}
+.lgbox input::-webkit-input-placeholder{ 
+    color:#999;
+    font-size: 14px;
+}
+.lgbox .lgb-text .lg-text{
+	font-size: 12px;
+	color: #666;
+	margin-top: 12px;
+	line-height: 14px;
+}
+.lgbox .lgb-text .lg-text .lg-forg-pw{
+	color: #666;
+	font-size: 12px;
+}
+.lgbox .lgb-text .lg-but{
+	width: 312px;
+	margin-top: 25px;
+	padding-bottom: 26px;
+}
+.lgbox .lgb-text .lg-but button{
+	width: 100%;
+	height: 46px;
+	line-height: 46px;
+	background: #f04d53;
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.lgbox .lgb-text .lg-but button:hover{
+	background: #d6424a;
+}
+.lgbox .lgb-text .lg-but button.bg86c{
+	background: #86c002;
+}
+.lgbox .lgb-text .lg-but button.bg86c:hover{
+	background: #74a600;
+}
+.lgbox .lgb-text .lg-text2{
+	text-align: center;
+	line-height: 1;
+	font-size: 12px;
+	margin-top: 29px;
+}
+.lgbox .lgb-text .lg-rit{
+	width: 13px;
+	height: 11px;
+	background: url(../img/35.png) left center no-repeat;
+	background-size:13px 11px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -3px;
+}
+.lgbox .lgb-text .null-error{
+	font-size: 12px;
+	position: absolute;
+	width: 310px;
+	height: 22px;
+	line-height: 22px;
+	text-align: left;
+	left: 19px;
+	top: 49px;
+	border: 1px solid #f2a1a5;
+	background: #f4edef;
+	color: #f04d52;
+}
+.cs-text{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 24px;
+	line-height: 1;
+	font-size: 14px;
+	color: #305c7f;
+	z-index: 10;
+}
+
+/*账号冻结*/
+.freeze-jbemail{ position: absolute; left: -338px; top: 81px; padding: 9px 18px; width: 295px; height:80px; background: url(../img/160.png) center center no-repeat;}
+.freeze-jbemail p,.freeze-jbemail p a{ font-size: 16px; color: #333; line-height: 26px;}
+.freeze-jbemail p a{ color: #348ce3;}
+.freeze-jbemail p a:hover{ text-decoration: underline;}
+
+i.tan-ico{ display: inline-block; width: 12px; height: 12px; background: url(../img/36.png) left center no-repeat;background-size:12px 12px; vertical-align: middle; margin-top: -3px;}
+
