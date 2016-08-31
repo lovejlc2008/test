@@ -1,0 +1,14 @@
+{
+    "ignore": [
+        "mock",
+        "selenium",
+        "templates",
+        "test"
+    ],
+    "development": {
+        "publicPath": "http://test.xiangcaozhaopin.com"
+    },
+    "production": {
+        "publicPath": "http://www.xiangcaozhaopin.com"
+    }
+}
