@@ -9,6 +9,6 @@
         "publicPath": "http://test.xiangcaozhaopin.com"
     },
     "production": {
-        "publicPath": "$\{rc.contextPath\}"
+        "publicPath": "$\\{rc.contextPath\\}"
     }
 }
