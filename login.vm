@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+	    <title>登录</title>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta content="telephone=no" name="format-detection" /> 
+		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	    <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
+	    <!--[if lt IE 8]>
+	    <script src="/js/html5.js"></script>
+	    <![endif]-->
+	    
+	    #parse("./common.vm")
+		#jsCss(["css/common.css","css/login.css"] "stylesheet")
+		#jsCss(["js/jquery.js","js/jquery.metadata.js","js/jquery.validate.js"] "javascript")
+	</head>
+
+<body class="login-body">
+<div class="lg-header">
+    <div class="lg-header">
+		<div class="lg-w">
+			<a href="http://www.xiangcaozhaopin.com/" class="logo fl"><img src="${rc.contextPath}/img/login-logo.png"></a>
+			<p class="logo-qy fl lh1 pt10"><i>｜</i>企业版</p>
+		</div>
+	</div>
+</div>
+	
+<div class="lg-cont">
+    <!--lgc-bg--start-->
+    <div class="lgc-bg">
+        <div class="lg-w">
+            <!--lgbox--start-->
+            <div class="lgbox">
+                <div class="lgb-text">
+                    <h3 class="title lh1">登录香草招聘</h3>
+
+                    <form class="form-horizontal" method="post" action="${rc.contextPath}/cuser/login">
+                        <p class="null-error" style="display: none;"></p>
+
+                        <div class="jo-input">
+                            <i class="icon"></i>
+                            <input type="text" id="account" name="account" validate="required:true,account:true" placeholder="请输入注册的手机号或邮箱">
+                        </div>
+                        <div class="jo-input pw">
+                            <i class="icon"></i>
+                            <input type="password" id="pwd" name="password" validate="required:true" placeholder="密码">
+                        </div>
+                        <p class="lg-text">
+                            <input type="checkbox" class="mr6">下次自动登录
+                            <a class="lg-forg-pw fr" id="forget" href="javascript:void(0)">忘记密码?</a>
+                        </p>
+                    </form>
+                    <div class="lg-but">
+                        <button type="button" id="doLogin">登 录</button>
+                        <button type="button" onclick="javascript:register();" class="mt10 bg86c">没有账号？ 一键注册</button>
+                    </div>
+                </div>
+
+                <!--账号冻结-->
+                <div class="freeze-jbemail" style="display: none;">
+                    <i class="arrow-right"></i>
+
+                    <p>您的账号因违规已被冻结，如有疑问请发送邮件联系香草招聘，邮箱地址：</p>
+
+                    <p><a href="mailto:xczpjubao@renruihr.com">xczpjubao@renruihr.com</a></p>
+                </div>
+
+
+            </div>
+            <!--lgbox--end-->
+        </div>
+
+        <div class="lbc-botbg"></div>
+        <p class="cs-text">客服QQ群: 304367526</p>
+    </div>
+    <!--lgc-bg--end-->
+</div>
+<script type="text/javascript">
+$('#forget').click(function(){
+    _hmt.push(['_trackEvent', '登录页', 'click', '忘记密码', 1]);
+    location.href = '${rc.contextPath}/forgetpwd/forget';
+});
+
+function register() {
+    _hmt.push(['_trackEvent', '登录页', 'click', '一键注册', 1]);
+    location.href = "/register";
+};
+
+$(function(){
+	$.metadata.setType("attr", "validate");
+	$(".form-horizontal").validate({
+		errorClass: "bor-red",
+		errorElement: "span",
+		showErrors:function(errorMap,errorList) {
+			$('.null-error').hide();
+			$(this.currentElements).parent('.bor-red').removeClass('bor-red');
+			this.defaultShowErrors();
+		},
+		errorPlacement:function(error,element){
+			if($('.jo-input.bor-red').size() < 1 || $(".null-error").css("display") === 'none'){
+				$('.null-error').html('<i class="tan-ico ml17 mr16 mt-4"></i> '+$(error).text()).show();
+			};
+			$(element).parent().addClass('bor-red');
+		},
+		messages:{
+			account:{
+				required:"账号不能为空!",
+				account:"账号格式不正确!"
+			},
+			password:{
+				required:"密码不能为空!"
+			}
+		}
+	});
+	jQuery.validator.addMethod("account", function(value, element) {
+		var emailReg = /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+        var mobileReg = /^(0|86|17951)?(13[0-9]|15[0-9]|17[0-9]|18[0-9]|14[57])[0-9]{8}$/;
+		return this.optional(element) || (emailReg.test(value) || mobileReg.test(value));
+	}, "账号格式不正确!");
+	
+	var loginFlag = false; //登录并发锁
+	$('#doLogin').click(function(){
+		_hmt.push(['_trackEvent', '登录页', 'click', '登录', 1]);
+		if($('.form-horizontal').valid() && !loginFlag){
+			loginFlag = true;
+			$.ajax({
+				type:"post",
+				data:{account:$('#account').val() , password: $('#pwd').val()},
+				url:"${rc.contextPath}/cuser/doLogin",
+				async:true,
+				cache:false,
+				success:function(result){
+					loginFlag = false;
+					if (result.code == 1) {
+                        window.location.href = "${rc.contextPath}/resume/index/receive";
+                    } else if (result.code == 2) {
+                        window.location.href = "${rc.contextPath}/cuser/registerEmail";
+                    } else if (result.code == -1) {
+                        $(".null-error").html("<i class='tan-ico ml17 mr16 mt-4'></i> 用户名或密码不能为空!").show();
+                    } else if (result.code == -2) {
+                        $(".null-error").html("<i class='tan-ico ml17 mr16 mt-4'></i> 该用户不存在!").show();
+                    } else if (result.code == -4) {//账户被冻结
+                        $("#account").parent().addClass("bor-red");
+                        $(".freeze-jbemail").show();
+                    } else if (result.code == -8) {//内部错误
+                        $(".null-error").html("<i class='tan-ico ml17 mr16 mt-4'></i> 用户名或密码错误,请重试!").show();
+                    };
+				},
+				error:function(){
+					loginFlag = false;
+				}
+			});
+		};
+	});
+	$('.form-horizontal').keyup(function (event) {
+        if (event.keyCode == 13) {
+           $('#doLogin').click();
+        }
+    });
+});
+var unifyURL = '${rc.contextPath}/cuser/login';
+</script>
+#parse("./footer.vm")
+#baidu()
+</body>
+</html>
