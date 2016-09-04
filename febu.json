@@ -3,7 +3,6 @@
         "mock",
         "selenium",
         "templates",
-        
         "test"
     ],
     "development": {
