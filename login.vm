@@ -30,7 +30,7 @@
 <div class="lg-header">
     <div class="lg-header">
 		<div class="lg-w">
-			<a href="http://www.xiangcaozhaopin.com/" class="logo fl"><img src="${rc.contextPath}/img/login-logo.png"></a>
+			<a href="./../" class="logo fl"><img src="${rc.contextPath}/img/login-logo.png"></a>
 			<p class="logo-qy fl lh1 pt10"><i>｜</i>企业版</p>
 		</div>
 	</div>
