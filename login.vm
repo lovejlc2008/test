@@ -134,7 +134,7 @@ $(function(){
 			$.ajax({
 				type:"post",
 				data:{account:$('#account').val() , password: $('#pwd').val()},
-				url:"./cuser/doLogin",
+				url:"${rc.contextPath}/cuser/doLogin",
 				async:true,
 				cache:false,
 				success:function(result){
