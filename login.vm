@@ -9,9 +9,6 @@
 	    <!--[if lt IE 8]>
 	    <script src="/js/html5.js"></script>
 	    <![endif]-->
-	    <link type="text/css" rel="stylesheet" href="css/layout.css" _group="all" />
-		<link type="text/css" rel="stylesheet" href="css/login.css" _group="all" />
-		<link type="text/css" rel="stylesheet" href="css/percenter.css" _group="all" />
 		
 		<link type="text/css" rel="stylesheet" href="css/index/layout.css" _group="sss" />
 	    #parse("./common.vm")
