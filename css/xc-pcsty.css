@@ -70,7 +70,7 @@ button,input{ outline: none;}
 .footer .footop .foot-logo{ width: 50px; display: block;}
 .footer .footop .foot-nav{ line-height: 20px; margin-left: 2px;}
 .footer .footop .foot-nav li{ float: left; }
-.footer .footop .foot-nav li a{ padding: 0 17px; font-size: 16px; color: #ccc; line-height: 20px; background: url(../img/xp3.png) right center no-repeat;}
+.footer .footop .foot-nav li a{ padding: 0 17px; font-size: 16px; color: #ccc; line-height: 20px; background: url(../../img/xp3.png) right center no-repeat;}
 .footer .footop .foot-nav li:nth-child(1) a{ padding: 0 18px 0 23px;}
 .footer .footop .foot-nav li a.last{ background: none;}
 .footer .footop .foot-nav li a:hover{ color: #f04349;}
@@ -94,7 +94,7 @@ button,input{ outline: none;}
 	font-size: 18px;
 	color: #f34b4e;
 	margin-bottom: 6px;
-	background: url(../img/xp6.png) left bottom repeat-x;	
+	background: url(../../img/xp6.png) left bottom repeat-x;	
 }
 .discm-box p{
 	font-size: 14px;
@@ -107,13 +107,13 @@ button,input{ outline: none;}
 	color: #f43535;
 	line-height: 1;	
 }
-.bort-dotted{ background: url(../img/xp6.png) left top repeat-x;}
+.bort-dotted{ background: url(../../img/xp6.png) left top repeat-x;}
 
 /*关于香草招聘*/
 .abxc-top{
 	width: 100%;
 	height: 450px;
-	background: url(../img/xp11.png) center top no-repeat #f34b4e;
+	background: url(../../img/xp11.png) center top no-repeat #f34b4e;
 	margin-top: 70px;
 }
 .abxc-top .w a{
@@ -124,14 +124,14 @@ button,input{ outline: none;}
 	cursor: pointer;
 }
 .abxc-top a.andr-down{
-	background-image: url(../img/xp12.png);
+	background-image: url(../../img/xp12.png);
 	background-position: left top;
 	background-repeat: no-repeat;
 	background-size: 218px 60px;
 	right: 294px;
 }
 .abxc-top a.app-down{
-	background-image: url(../img/xp13.png);
+	background-image: url(../../img/xp13.png);
 	background-position: left top;
 	background-repeat: no-repeat;
 	background-size: 218px 60px;
@@ -175,7 +175,7 @@ button,input{ outline: none;}
 }
 .abxc-ul li.first h2{
 	color: #f34b4e;
-	background: url(../img/xp14.png) left center no-repeat;
+	background: url(../../img/xp14.png) left center no-repeat;
 	background-size: 5px 34px;
 }
 .abxc-ul li.first img{
@@ -192,7 +192,7 @@ button,input{ outline: none;}
 }
 .abxc-ul li.second h2{
 	color: #f9521e;
-	background: url(../img/xp15.png) left center no-repeat;
+	background: url(../../img/xp15.png) left center no-repeat;
 	background-size: 5px 34px;
 }
 .abxc-ul li.second img{
@@ -205,7 +205,7 @@ button,input{ outline: none;}
 }
 .abxc-ul li.third h2{
 	color: #2373cc;
-	background: url(../img/xp16.png) left center no-repeat;
+	background: url(../../img/xp16.png) left center no-repeat;
 	background-size: 5px 34px;
 }
 .abxc-ul li.third img{
@@ -219,7 +219,7 @@ button,input{ outline: none;}
 }
 .abxc-ul li.fourth h2{
 	color: #57cc23;
-	background: url(../img/xp17.png) left center no-repeat;
+	background: url(../../img/xp17.png) left center no-repeat;
 	background-size: 5px 34px;
 }
 .abxc-ul li.fourth img{
@@ -231,7 +231,7 @@ button,input{ outline: none;}
 .jous-top{
 	width: 100%;
 	height: 400px;
-	background: url(../img/xp18.jpg) center top no-repeat #143143;
+	background: url(../../img/xp18.jpg) center top no-repeat #143143;
 	margin-top: 70px;
 }
 .jous-contop{
@@ -319,7 +319,7 @@ button,input{ outline: none;}
 }
 .jous-conbot h3.text{
 	line-height: 1;
-	background: url(../img/xp27.png) center center no-repeat;
+	background: url(../../img/xp27.png) center center no-repeat;
 	color: #999;
 }
 .jous-conbot .job-offer{
@@ -392,7 +392,7 @@ button,input{ outline: none;}
 .buscoop-top{
 	width: 100%;
 	height: 401px;
-	background: url(../img/xp43.jpg) center center no-repeat;
+	background: url(../../img/xp43.jpg) center center no-repeat;
 	margin-top: 70px;
 }
 .buscoop-top .w .hire-but{
@@ -403,7 +403,7 @@ button,input{ outline: none;}
 	cursor: pointer;
 	left: 499px;
 	bottom: 55px;
-	background: url(../img/xp44.png) center center no-repeat;
+	background: url(../../img/xp44.png) center center no-repeat;
 	background-size: 193px 59px;
 }
 .buscoop-cen{
@@ -421,7 +421,7 @@ button,input{ outline: none;}
 .buscoop-cen .bscp-cbox{
 	width: 100%;
 	height: 438px;
-	background: url(../img/xp28.jpg) left top no-repeat #3c3c3d;
+	background: url(../../img/xp28.jpg) left top no-repeat #3c3c3d;
 }
 .buscoop-cen .bscp-cbox .bccb-text{
 	margin-top: 58px;

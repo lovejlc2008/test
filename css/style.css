@@ -7,7 +7,7 @@
 	z-index: 100;
 	width: 29px;
 	height: 95px;
-	background: url(../img/4.png) left top no-repeat;
+	background: url(../../img/4.png) left top no-repeat;
 	cursor: pointer;
 }
 
@@ -87,12 +87,12 @@ table.table-striped>tbody>tr:nth-of-type(odd){
 	background: #fff;
 }
 table.table > tbody > tr.nread td:first-child{
-	background-image: url(../img/159.png);
+	background-image: url(../../img/159.png);
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
 table.table > tbody > tr.read td:first-child{
-	background-image: url(../img/158.png);
+	background-image: url(../../img/158.png);
 	background-position: 0 0;
 	background-repeat: no-repeat;
 }
@@ -150,7 +150,7 @@ table.table-striped>tbody>tr:nth-of-type(even){
 	width: 9px;
 	height: 5px;
 	display: inline-block;
-	background: url(../img/3.png) left top no-repeat;
+	background: url(../../img/3.png) left top no-repeat;
 	background-size:9px 5px;
 	position: absolute;
 }
@@ -184,7 +184,7 @@ table.table-striped>tbody>tr:nth-of-type(even){
 .xder-tip .help-box i.arrow-left{
 	top: -6px;
 	right: 9px;
-	background: url(../img/87.png) left top no-repeat
+	background: url(../../img/87.png) left top no-repeat
 }
 /*简历－筛选  结束*/
 
@@ -222,7 +222,7 @@ i.recg_sta1{
 	width: 16px;
 	height: 21px;
 	display: inline-block;
-	background: url(../img/5.png) left center no-repeat;
+	background: url(../../img/5.png) left center no-repeat;
 	background-size: 16px 16px;
 	margin-right: 5px;
 }
@@ -230,7 +230,7 @@ i.recg_sta2{
 	width: 16px;
 	height: 21px;
 	display: inline-block;
-	background: url(../img/7.png) left center no-repeat;
+	background: url(../../img/7.png) left center no-repeat;
 	background-size: 16px 16px;
 	margin-right: 5px;
 }
@@ -470,14 +470,14 @@ i.vert-suc{
 	width: 186px;
 	height: 129px;
 	display: inline-block;
-	background: url(../img/11.png) left top no-repeat;
+	background: url(../../img/11.png) left top no-repeat;
 	background-size: 186px 129px;
 }
 i.vert-fail{
 	width: 186px;
 	height: 129px;
 	display: inline-block;
-	background: url(../img/12.png) left top no-repeat;
+	background: url(../../img/12.png) left top no-repeat;
 	background-size: 186px 129px;
 }
 .verify-box i.vert-stu{
@@ -692,7 +692,7 @@ span.close-but{
 	position: absolute;
 	top: -14px;
 	left: 170px;
-	background: url(../img/157.png) center center no-repeat;
+	background: url(../../img/157.png) center center no-repeat;
 	background-size: 23px 14px;
 }
 .com-logo{
@@ -1306,7 +1306,7 @@ input[type=checkbox].mr5{
 	display: none;
 	border-top-left-radius: 3px;
 	border-bottom-left-radius: 3px;	
-	background: url(../img/83.png) left top no-repeat;	
+	background: url(../../img/83.png) left top no-repeat;	
 	cursor: pointer;
 }
 .friends-box .friends-tip{
@@ -1334,7 +1334,7 @@ input[type=checkbox].mr5{
 	width: 20px;
 	height: 40px;
 	display: block;
-	background: url(../img/84.png) center center no-repeat;
+	background: url(../../img/84.png) center center no-repeat;
 	position: absolute;
 	left: 0px;
 	top: 88px;
