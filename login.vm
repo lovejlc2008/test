@@ -11,6 +11,9 @@
 	    <![endif]-->
 		
 		<link type="text/css" rel="stylesheet" href="css/layout.css" _group="all" />
+		<link type="text/css" rel="stylesheet" href="css/login.css" _group="all" />
+		<link type="text/css" rel="stylesheet" href="css/layout.css" />
+		<link type="text/css" rel="stylesheet" href="css/login.css" />
 	    #parse("./common.vm")
 		#jsCss(["css/common.css","css/login.css"] "stylesheet")
 		#jsCss(["js/jquery.js","js/jquery.metadata.js","js/jquery.validate.js"] "javascript")
