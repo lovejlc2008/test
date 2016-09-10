@@ -7,6 +7,11 @@
 <link type="text/css" rel="stylesheet" href='css/style.css' />
 <link type="text/css" rel="stylesheet" href="./css/xc-pcsty.css" />
 
+<link type="text/css" rel="stylesheet" href="css/index/layout.css" _group="all" />
+<link type="text/css" rel="stylesheet" href="css/index/login.css" _group="all" />
+<link type="text/css" rel="stylesheet" href="css/index/percenter.css" _group="all" />
+<link type="text/css" rel="stylesheet" href="./css/index/style.css" _group="header" />
+
 
 <link type="text/css" rel="stylesheet" href="./css/style.css"/>
 <link type="text/css" rel="stylesheet" href='./css/style.css'/>
