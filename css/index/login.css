@@ -60,18 +60,18 @@ body.login-body{
 	-moz-box-sizing: border-box;
 	-ms-box-sizing:border-box;
 	box-sizing: border-box;
-	background:url(../img/login-bg.jpg) center 50px no-repeat #3daafb;
+	background:url(../../img/login-bg.jpg) center 50px no-repeat #3daafb;
 }
 .lg-cont .lgc-bg{
 	width: 100%;
 	height: 100%;
-	background:url(../img/login-bg2.jpg) center 600px no-repeat;
+	background:url(../../img/login-bg2.jpg) center 600px no-repeat;
 	position: relative;
 }
 .lg-cont .lgc-bg .lbc-botbg{
 	width: 100%;
 	height: 177px;
-	background: url(../img/lb4.png) center bottom no-repeat;
+	background: url(../../img/lb4.png) center bottom no-repeat;
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -86,7 +86,7 @@ body.login-body{
 	width: 331px;
 	height: auto;
 	padding: 29px 0 0 19px;
-	/*background: url(../img/lb1.png) left top no-repeat;*/
+	/*background: url(../../img/lb1.png) left top no-repeat;*/
 	background-color: #fff;
 	z-index: 99;
 }
@@ -97,7 +97,7 @@ body.login-body{
 	right: -49px;
 	top: -24px;
 	z-index: 101;
-	background: url(../img/lb5.png) center center no-repeat;
+	background: url(../../img/lb5.png) center center no-repeat;
 }
 .lg-cont .lgc-bg .lgb-text{
 	width: 312px;
@@ -123,10 +123,10 @@ body.login-body{
 	width: 42px;
 	height: 42px;
 	vertical-align: middle;
-	background: #dedcdf url(../img/lb2.png) center center no-repeat;
+	background: #dedcdf url(../../img/lb2.png) center center no-repeat;
 }
 .lgbox .jo-input.pw i.icon{
-	background: #dedcdf url(../img/lb3.png) center center no-repeat;
+	background: #dedcdf url(../../img/lb3.png) center center no-repeat;
 }
 .lgbox .jo-input input{
 	outline: none;
@@ -203,7 +203,7 @@ body.login-body{
 .lgbox .lgb-text .lg-rit{
 	width: 13px;
 	height: 11px;
-	background: url(../img/35.png) left center no-repeat;
+	background: url(../../img/35.png) left center no-repeat;
 	background-size:13px 11px;
 	display: inline-block;
 	vertical-align: middle;
@@ -234,10 +234,10 @@ body.login-body{
 }
 
 /*账号冻结*/
-.freeze-jbemail{ position: absolute; left: -338px; top: 81px; padding: 9px 18px; width: 295px; height:80px; background: url(../img/160.png) center center no-repeat;}
+.freeze-jbemail{ position: absolute; left: -338px; top: 81px; padding: 9px 18px; width: 295px; height:80px; background: url(../../img/160.png) center center no-repeat;}
 .freeze-jbemail p,.freeze-jbemail p a{ font-size: 16px; color: #333; line-height: 26px;}
 .freeze-jbemail p a{ color: #348ce3;}
 .freeze-jbemail p a:hover{ text-decoration: underline;}
 
-i.tan-ico{ display: inline-block; width: 12px; height: 12px; background: url(../img/36.png) left center no-repeat;background-size:12px 12px; vertical-align: middle; margin-top: -3px;}
+i.tan-ico{ display: inline-block; width: 12px; height: 12px; background: url(../../img/36.png) left center no-repeat;background-size:12px 12px; vertical-align: middle; margin-top: -3px;}
 
