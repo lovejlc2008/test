@@ -10,7 +10,7 @@
 	    <script src="/js/html5.js"></script>
 	    <![endif]-->
 		
-		<link type="text/css" rel="stylesheet" href="css/index/layout.css" _group="sss" />
+		<link type="text/css" rel="stylesheet" href="css/index/layout.css" _group="all" />
 	    #parse("./common.vm")
 		#jsCss(["css/common.css","css/login.css"] "stylesheet")
 		#jsCss(["js/jquery.js","js/jquery.metadata.js","js/jquery.validate.js"] "javascript")
