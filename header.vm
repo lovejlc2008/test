@@ -1,6 +1,6 @@
-<link type="text/css" rel="stylesheet" href="css/layout.css" _inline _compress />
-<link type="text/css" rel="stylesheet" href="css/login.css" _group="index" />
-<link type="text/css" rel="stylesheet" href="css/percenter.css" _group="index" />
+<link type="text/css" rel="stylesheet" href="css/layout.css" />
+<link type="text/css" rel="stylesheet" href="css/login.css" />
+<link type="text/css" rel="stylesheet" href="css/percenter.css" />
 <link type="text/css" rel="stylesheet" href="css/xc-pcsty.css" />
 
 <script type="text/javascript" src="js/npm.js"></script>
