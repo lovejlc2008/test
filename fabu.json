@@ -9,6 +9,6 @@
         "publicPath": "http://test.xiangcaozhaopin.com"
     },
     "production": {
-        "publicPath": "http://test.xiangcaozhaopin.com"
+        "publicPath": "http://www.xiangcaozhaopin.com"
     }
 }
