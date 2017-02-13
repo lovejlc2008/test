@@ -6,9 +6,9 @@
         "test"
     ],
     "development": {
-        "publicPath": "http://test.xiangcaozhaopin.com"
+        "publicPath": "http://test.google.cn"
     },
     "production": {
-        "publicPath": "http://www.xiangcaozhaopin.com"
+        "publicPath": "http://www.google.cn"
     }
 }
