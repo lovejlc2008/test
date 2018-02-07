@@ -5,7 +5,7 @@
 	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta content="telephone=no" name="format-detection" /> 
 		<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
-	    <!-- build:css css/layout.css-->
+	    <!-- build:css css/layout.css -->
 		<link type="text/css" rel="stylesheet" href="css/layout.css" />
 		<link type="text/css" rel="stylesheet" href="css/login.css" />
 		<!-- endbuild -->
